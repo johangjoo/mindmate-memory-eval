@@ -1,0 +1,622 @@
+[
+  {
+    "session": 1,
+    "boundary": "start",
+    "delta_tokens": 92,
+    "cumulative_tokens": 92,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 92,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.000368,
+    "cumulative_usd_estimate": 0.000368,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 1,
+    "boundary": "end",
+    "delta_tokens": 22022,
+    "cumulative_tokens": 22114,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 5144,
+        "output_tokens": 8340,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 6208,
+        "output_tokens": 1754,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 576,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.05394851999999999,
+    "cumulative_usd_estimate": 0.05431651999999999,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 2,
+    "boundary": "start",
+    "delta_tokens": 445,
+    "cumulative_tokens": 22559,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 445,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.00178,
+    "cumulative_usd_estimate": 0.05609651999999999,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 2,
+    "boundary": "end",
+    "delta_tokens": 15045,
+    "cumulative_tokens": 37604,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 4922,
+        "output_tokens": 4282,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 4553,
+        "output_tokens": 978,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 310,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.028968049999999995,
+    "cumulative_usd_estimate": 0.08506456999999998,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 3,
+    "boundary": "start",
+    "delta_tokens": 623,
+    "cumulative_tokens": 38227,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 623,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.002492,
+    "cumulative_usd_estimate": 0.08755656999999997,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 3,
+    "boundary": "end",
+    "delta_tokens": 23488,
+    "cumulative_tokens": 61715,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 4802,
+        "output_tokens": 8615,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 7183,
+        "output_tokens": 2470,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 418,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.057065209999999984,
+    "cumulative_usd_estimate": 0.14462177999999995,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 4,
+    "boundary": "start",
+    "delta_tokens": 883,
+    "cumulative_tokens": 62598,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 883,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.003532,
+    "cumulative_usd_estimate": 0.14815377999999996,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 4,
+    "boundary": "end",
+    "delta_tokens": 39792,
+    "cumulative_tokens": 102390,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 9698,
+        "output_tokens": 18570,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 8254,
+        "output_tokens": 2701,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 569,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.10738048000000004,
+    "cumulative_usd_estimate": 0.25553426,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 5,
+    "boundary": "start",
+    "delta_tokens": 1064,
+    "cumulative_tokens": 103454,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 1064,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.004256,
+    "cumulative_usd_estimate": 0.25979026,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 5,
+    "boundary": "end",
+    "delta_tokens": 17962,
+    "cumulative_tokens": 121416,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 4886,
+        "output_tokens": 5343,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 5497,
+        "output_tokens": 1784,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 452,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.03805338999999999,
+    "cumulative_usd_estimate": 0.29784365,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 6,
+    "boundary": "start",
+    "delta_tokens": 1271,
+    "cumulative_tokens": 122687,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 1271,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.005084,
+    "cumulative_usd_estimate": 0.30292765,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 6,
+    "boundary": "end",
+    "delta_tokens": 22772,
+    "cumulative_tokens": 145459,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 4825,
+        "output_tokens": 7113,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 8098,
+        "output_tokens": 2178,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 558,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.049698509999999994,
+    "cumulative_usd_estimate": 0.35262615999999997,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 7,
+    "boundary": "start",
+    "delta_tokens": 1590,
+    "cumulative_tokens": 147049,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 1590,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.00636,
+    "cumulative_usd_estimate": 0.35898615999999994,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 7,
+    "boundary": "end",
+    "delta_tokens": 18604,
+    "cumulative_tokens": 165653,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 4824,
+        "output_tokens": 5770,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 5442,
+        "output_tokens": 2159,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 409,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.04157378,
+    "cumulative_usd_estimate": 0.40055993999999995,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 8,
+    "boundary": "start",
+    "delta_tokens": 1835,
+    "cumulative_tokens": 167488,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 1835,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.00734,
+    "cumulative_usd_estimate": 0.40789993999999996,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 8,
+    "boundary": "end",
+    "delta_tokens": 17006,
+    "cumulative_tokens": 184494,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 5119,
+        "output_tokens": 7055,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 3620,
+        "output_tokens": 871,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 341,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.04041367,
+    "cumulative_usd_estimate": 0.44831361,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 9,
+    "boundary": "start",
+    "delta_tokens": 2018,
+    "cumulative_tokens": 186512,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 2018,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.008072,
+    "cumulative_usd_estimate": 0.45638561,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 9,
+    "boundary": "end",
+    "delta_tokens": 14651,
+    "cumulative_tokens": 201163,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 4844,
+        "output_tokens": 6244,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 2703,
+        "output_tokens": 642,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 218,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.03483720999999999,
+    "cumulative_usd_estimate": 0.49122282,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 10,
+    "boundary": "start",
+    "delta_tokens": 2104,
+    "cumulative_tokens": 203267,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 2104,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "reconciliation": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.008416,
+    "cumulative_usd_estimate": 0.49963882,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  },
+  {
+    "session": 10,
+    "boundary": "end",
+    "delta_tokens": 23776,
+    "cumulative_tokens": 227043,
+    "breakdown": {
+      "prompt_estimate": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      },
+      "extraction": {
+        "input_tokens": 5125,
+        "output_tokens": 7529,
+        "cached_tokens": 2688
+      },
+      "reconciliation": {
+        "input_tokens": 8131,
+        "output_tokens": 2394,
+        "cached_tokens": 0
+      },
+      "embedding": {
+        "input_tokens": 597,
+        "output_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "delta_usd_estimate": 0.052793040000000006,
+    "cumulative_usd_estimate": 0.55243186,
+    "note": "Mixed native billed tokens plus o200k estimated start tokens; cached tokens are a subset, not added twice."
+  }
+]

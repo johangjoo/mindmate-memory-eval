@@ -1,0 +1,73 @@
+{
+  "publication_date": "2026-10-30",
+  "sources": [
+    {
+      "published_path": "data/sessions.json",
+      "sha256": "e012bc51f03e9e367d8f8840cde85e0e627e7c740775c11bf02f00b501a04770",
+      "original_relative_path": "data/longmindmemeval/mini-v4-20261027/sessions.json",
+      "transformation": "none; byte-identical to v3 and mini-v4 source"
+    },
+    {
+      "published_path": "data/questions_gold.json",
+      "sha256": "129bec7fdaf789689d1945a66db22d663f14e3b451bf2d087fff4be982c3f513",
+      "original_relative_path": "data/longmindmemeval/mini-v4-20261027/questions_gold.json",
+      "transformation": "none; byte-identical to v3 and mini-v4 source"
+    },
+    {
+      "published_path": "data/events_gold.json",
+      "sha256": "79c5f5899fcf6cbd0f1847fec2e297edd6a6af7673bd360daa07f48970af8ef1",
+      "original_relative_path": "data/longmindmemeval/mini-v4-20261027/events_gold.json",
+      "transformation": "none; byte-identical to v3 and mini-v4 source"
+    },
+    {
+      "published_path": "data/negative_controls.json",
+      "sha256": "4b72cfb8f8d0ddef2492febf6f9d93c0b5becdf2af8360ddbd6ecc4c54c188b8",
+      "original_relative_path": "data/longmindmemeval/mini-v4-20261027/negative_controls.json",
+      "transformation": "none; byte-identical to v3 and mini-v4 source"
+    },
+    {
+      "published_path": "data/evaluation_schedule.json",
+      "sha256": "763ce11fd365876bb16699303b36857f7840aea2978310b3403ed8f011f7557f",
+      "original_relative_path": "data/longmindmemeval/mini-v4-20261027/evaluation_schedule.json",
+      "transformation": "none; byte-identical to v3 and mini-v4 source"
+    }
+  ],
+  "transformations": [
+    "Source dataset files byte-identical; Markdown/CSV derived from JSON.",
+    "Results exported from original answers.json plus explicit adjudications.",
+    "Local filesystem roots, database schema identifiers and API request IDs omitted from public results.",
+    "No production database records, environment files, keys, audio, or full API journals included."
+  ],
+  "original_result_artifacts": [
+    {
+      "name": "longmind-live-20261025-02/M1-P1",
+      "answers_sha256": "ae7ff829f1e477e8dbf80fcf04d21840f4be13ec2dead4645183252c83b7cf8f",
+      "summary_sha256": "2accd81baa4d51353b02f94e912b26ce3642b446949c5a8ad9ee9bf33d77012b"
+    },
+    {
+      "name": "longmind-live-20261025-02/M1-P3",
+      "answers_sha256": "06397380631ab2c3bb7e438449316bd582d021b0829f9c2c9f1b0ee4a41f2bd9",
+      "summary_sha256": "a716acd1142e4ead4cf6da01235e57f7bbabedcd0f68202e7af2b8529b61c2ff"
+    },
+    {
+      "name": "longmind-live-20261025-02/M1-P5",
+      "answers_sha256": "d7fdc391edeac44cb753a913b0d64db68642c72311d37286f7590e6d715d32ac",
+      "summary_sha256": "6517ed2b6ef9c5aac48547b8236545be36cdb87f7d6c78ff8dc19a44268ac4f7"
+    },
+    {
+      "name": "longmind-mini-v4-live-20261027/M1-P1",
+      "answers_sha256": "a2a83b3f41180d0b9b2d197e060d039704dc678f77de0490385595504713e748",
+      "summary_sha256": "48dc8e7a89b2e914201c6e98bcc226d8543b8db049f9a5060e8c4174c15eaa27"
+    },
+    {
+      "name": "longmind-mini-v4-live-20261027/M1-P3",
+      "answers_sha256": "3276d9ec73ec2e1e4632e4c9c346a99a2ae614cf78ef7591a60999f722fa6c1c",
+      "summary_sha256": "42539b6ecb92dd138db8c8901a9c61c600ab75d2b6800165bdfa0f156bd35e5d"
+    },
+    {
+      "name": "longmind-mini-v4-live-20261027/M1-P5",
+      "answers_sha256": "da02d143a9ff702134106328fa06023618e4b1eb7d5875bc5b3ec5d012a088cd",
+      "summary_sha256": "172e90e2bf5f5c7d9528138f448de62063bb37213a87ac42177644a11729a233"
+    }
+  ]
+}

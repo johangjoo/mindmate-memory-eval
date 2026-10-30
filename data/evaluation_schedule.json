@@ -1,0 +1,5682 @@
+{
+  "P1": {
+    "policy": "P1",
+    "period_sessions": 1,
+    "events": [
+      {
+        "event_id": "P1:S01:pre_consolidation:Q001",
+        "action": "evaluate",
+        "question_id": "Q001",
+        "phase": "pre_consolidation",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S01:pre_consolidation:Q002",
+        "action": "evaluate",
+        "question_id": "Q002",
+        "phase": "pre_consolidation",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S01:pre_consolidation:Q003",
+        "action": "evaluate",
+        "question_id": "Q003",
+        "phase": "pre_consolidation",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S01:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 1,
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "event_id": "P1:S01:checkpoint:Q001",
+        "action": "evaluate",
+        "question_id": "Q001",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 1,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S01:checkpoint:Q002",
+        "action": "evaluate",
+        "question_id": "Q002",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 1,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S01:checkpoint:Q003",
+        "action": "evaluate",
+        "question_id": "Q003",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 1,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S02:pre_consolidation:Q004",
+        "action": "evaluate",
+        "question_id": "Q004",
+        "phase": "pre_consolidation",
+        "after_session": 2,
+        "processed_through": 1,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S02:pre_consolidation:Q005",
+        "action": "evaluate",
+        "question_id": "Q005",
+        "phase": "pre_consolidation",
+        "after_session": 2,
+        "processed_through": 1,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S02:pre_consolidation:Q006",
+        "action": "evaluate",
+        "question_id": "Q006",
+        "phase": "pre_consolidation",
+        "after_session": 2,
+        "processed_through": 1,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S02:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 2,
+        "sessions": [
+          2
+        ]
+      },
+      {
+        "event_id": "P1:S02:checkpoint:Q004",
+        "action": "evaluate",
+        "question_id": "Q004",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 2,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S02:checkpoint:Q005",
+        "action": "evaluate",
+        "question_id": "Q005",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 2,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S02:checkpoint:Q006",
+        "action": "evaluate",
+        "question_id": "Q006",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 2,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:in_session:Q059",
+        "action": "evaluate",
+        "question_id": "Q059",
+        "phase": "in_session",
+        "after_session": 3,
+        "processed_through": 2,
+        "visible_through": 3,
+        "after_turn_id": "LMME-v1-S03-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:pre_consolidation:Q007",
+        "action": "evaluate",
+        "question_id": "Q007",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 2,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:pre_consolidation:Q008",
+        "action": "evaluate",
+        "question_id": "Q008",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 2,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:pre_consolidation:Q009",
+        "action": "evaluate",
+        "question_id": "Q009",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 2,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:pre_consolidation:Q010",
+        "action": "evaluate",
+        "question_id": "Q010",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 2,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 3,
+        "sessions": [
+          3
+        ]
+      },
+      {
+        "event_id": "P1:S03:checkpoint:Q007",
+        "action": "evaluate",
+        "question_id": "Q007",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:checkpoint:Q008",
+        "action": "evaluate",
+        "question_id": "Q008",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:checkpoint:Q009",
+        "action": "evaluate",
+        "question_id": "Q009",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S03:checkpoint:Q010",
+        "action": "evaluate",
+        "question_id": "Q010",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:in_session:Q060",
+        "action": "evaluate",
+        "question_id": "Q060",
+        "phase": "in_session",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": "LMME-v1-S04-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:pre_consolidation:Q011",
+        "action": "evaluate",
+        "question_id": "Q011",
+        "phase": "pre_consolidation",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:pre_consolidation:Q012",
+        "action": "evaluate",
+        "question_id": "Q012",
+        "phase": "pre_consolidation",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:pre_consolidation:Q013",
+        "action": "evaluate",
+        "question_id": "Q013",
+        "phase": "pre_consolidation",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:pre_consolidation:Q014",
+        "action": "evaluate",
+        "question_id": "Q014",
+        "phase": "pre_consolidation",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:pre_consolidation:Q015",
+        "action": "evaluate",
+        "question_id": "Q015",
+        "phase": "pre_consolidation",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 4,
+        "sessions": [
+          4
+        ]
+      },
+      {
+        "event_id": "P1:S04:checkpoint:Q011",
+        "action": "evaluate",
+        "question_id": "Q011",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 4,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:checkpoint:Q012",
+        "action": "evaluate",
+        "question_id": "Q012",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 4,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:checkpoint:Q013",
+        "action": "evaluate",
+        "question_id": "Q013",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 4,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:checkpoint:Q014",
+        "action": "evaluate",
+        "question_id": "Q014",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 4,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S04:checkpoint:Q015",
+        "action": "evaluate",
+        "question_id": "Q015",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 4,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:in_session:Q061",
+        "action": "evaluate",
+        "question_id": "Q061",
+        "phase": "in_session",
+        "after_session": 5,
+        "processed_through": 4,
+        "visible_through": 5,
+        "after_turn_id": "LMME-v1-S05-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:pre_consolidation:Q016",
+        "action": "evaluate",
+        "question_id": "Q016",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 4,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:pre_consolidation:Q017",
+        "action": "evaluate",
+        "question_id": "Q017",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 4,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:pre_consolidation:Q018",
+        "action": "evaluate",
+        "question_id": "Q018",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 4,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:pre_consolidation:Q019",
+        "action": "evaluate",
+        "question_id": "Q019",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 4,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:pre_consolidation:Q020",
+        "action": "evaluate",
+        "question_id": "Q020",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 4,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 5,
+        "sessions": [
+          5
+        ]
+      },
+      {
+        "event_id": "P1:S05:checkpoint:Q016",
+        "action": "evaluate",
+        "question_id": "Q016",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:checkpoint:Q017",
+        "action": "evaluate",
+        "question_id": "Q017",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:checkpoint:Q018",
+        "action": "evaluate",
+        "question_id": "Q018",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:checkpoint:Q019",
+        "action": "evaluate",
+        "question_id": "Q019",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S05:checkpoint:Q020",
+        "action": "evaluate",
+        "question_id": "Q020",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:pre_consolidation:Q021",
+        "action": "evaluate",
+        "question_id": "Q021",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:pre_consolidation:Q022",
+        "action": "evaluate",
+        "question_id": "Q022",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:pre_consolidation:Q023",
+        "action": "evaluate",
+        "question_id": "Q023",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:pre_consolidation:Q024",
+        "action": "evaluate",
+        "question_id": "Q024",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:pre_consolidation:Q025",
+        "action": "evaluate",
+        "question_id": "Q025",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 6,
+        "sessions": [
+          6
+        ]
+      },
+      {
+        "event_id": "P1:S06:checkpoint:Q021",
+        "action": "evaluate",
+        "question_id": "Q021",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:checkpoint:Q022",
+        "action": "evaluate",
+        "question_id": "Q022",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:checkpoint:Q023",
+        "action": "evaluate",
+        "question_id": "Q023",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:checkpoint:Q024",
+        "action": "evaluate",
+        "question_id": "Q024",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S06:checkpoint:Q025",
+        "action": "evaluate",
+        "question_id": "Q025",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:pre_consolidation:Q026",
+        "action": "evaluate",
+        "question_id": "Q026",
+        "phase": "pre_consolidation",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:pre_consolidation:Q027",
+        "action": "evaluate",
+        "question_id": "Q027",
+        "phase": "pre_consolidation",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:pre_consolidation:Q028",
+        "action": "evaluate",
+        "question_id": "Q028",
+        "phase": "pre_consolidation",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:pre_consolidation:Q029",
+        "action": "evaluate",
+        "question_id": "Q029",
+        "phase": "pre_consolidation",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:pre_consolidation:Q030",
+        "action": "evaluate",
+        "question_id": "Q030",
+        "phase": "pre_consolidation",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 7,
+        "sessions": [
+          7
+        ]
+      },
+      {
+        "event_id": "P1:S07:checkpoint:Q026",
+        "action": "evaluate",
+        "question_id": "Q026",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 7,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:checkpoint:Q027",
+        "action": "evaluate",
+        "question_id": "Q027",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 7,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:checkpoint:Q028",
+        "action": "evaluate",
+        "question_id": "Q028",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 7,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:checkpoint:Q029",
+        "action": "evaluate",
+        "question_id": "Q029",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 7,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S07:checkpoint:Q030",
+        "action": "evaluate",
+        "question_id": "Q030",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 7,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:pre_consolidation:Q031",
+        "action": "evaluate",
+        "question_id": "Q031",
+        "phase": "pre_consolidation",
+        "after_session": 8,
+        "processed_through": 7,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:pre_consolidation:Q032",
+        "action": "evaluate",
+        "question_id": "Q032",
+        "phase": "pre_consolidation",
+        "after_session": 8,
+        "processed_through": 7,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:pre_consolidation:Q033",
+        "action": "evaluate",
+        "question_id": "Q033",
+        "phase": "pre_consolidation",
+        "after_session": 8,
+        "processed_through": 7,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:pre_consolidation:Q034",
+        "action": "evaluate",
+        "question_id": "Q034",
+        "phase": "pre_consolidation",
+        "after_session": 8,
+        "processed_through": 7,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:pre_consolidation:Q035",
+        "action": "evaluate",
+        "question_id": "Q035",
+        "phase": "pre_consolidation",
+        "after_session": 8,
+        "processed_through": 7,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:pre_consolidation:Q036",
+        "action": "evaluate",
+        "question_id": "Q036",
+        "phase": "pre_consolidation",
+        "after_session": 8,
+        "processed_through": 7,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 8,
+        "sessions": [
+          8
+        ]
+      },
+      {
+        "event_id": "P1:S08:checkpoint:Q031",
+        "action": "evaluate",
+        "question_id": "Q031",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 8,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:checkpoint:Q032",
+        "action": "evaluate",
+        "question_id": "Q032",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 8,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:checkpoint:Q033",
+        "action": "evaluate",
+        "question_id": "Q033",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 8,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:checkpoint:Q034",
+        "action": "evaluate",
+        "question_id": "Q034",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 8,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:checkpoint:Q035",
+        "action": "evaluate",
+        "question_id": "Q035",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 8,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S08:checkpoint:Q036",
+        "action": "evaluate",
+        "question_id": "Q036",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 8,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:in_session:Q062",
+        "action": "evaluate",
+        "question_id": "Q062",
+        "phase": "in_session",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": "LMME-v1-S09-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:in_session:Q063",
+        "action": "evaluate",
+        "question_id": "Q063",
+        "phase": "in_session",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": "LMME-v1-S09-T003",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:pre_consolidation:Q037",
+        "action": "evaluate",
+        "question_id": "Q037",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:pre_consolidation:Q038",
+        "action": "evaluate",
+        "question_id": "Q038",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:pre_consolidation:Q039",
+        "action": "evaluate",
+        "question_id": "Q039",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:pre_consolidation:Q040",
+        "action": "evaluate",
+        "question_id": "Q040",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:pre_consolidation:Q041",
+        "action": "evaluate",
+        "question_id": "Q041",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:pre_consolidation:Q042",
+        "action": "evaluate",
+        "question_id": "Q042",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 8,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 9,
+        "sessions": [
+          9
+        ]
+      },
+      {
+        "event_id": "P1:S09:checkpoint:Q037",
+        "action": "evaluate",
+        "question_id": "Q037",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:checkpoint:Q038",
+        "action": "evaluate",
+        "question_id": "Q038",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:checkpoint:Q039",
+        "action": "evaluate",
+        "question_id": "Q039",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:checkpoint:Q040",
+        "action": "evaluate",
+        "question_id": "Q040",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:checkpoint:Q041",
+        "action": "evaluate",
+        "question_id": "Q041",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S09:checkpoint:Q042",
+        "action": "evaluate",
+        "question_id": "Q042",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q043",
+        "action": "evaluate",
+        "question_id": "Q043",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q044",
+        "action": "evaluate",
+        "question_id": "Q044",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q045",
+        "action": "evaluate",
+        "question_id": "Q045",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q046",
+        "action": "evaluate",
+        "question_id": "Q046",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q047",
+        "action": "evaluate",
+        "question_id": "Q047",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q048",
+        "action": "evaluate",
+        "question_id": "Q048",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q049",
+        "action": "evaluate",
+        "question_id": "Q049",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q050",
+        "action": "evaluate",
+        "question_id": "Q050",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q064",
+        "action": "evaluate",
+        "question_id": "Q064",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q065",
+        "action": "evaluate",
+        "question_id": "Q065",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q066",
+        "action": "evaluate",
+        "question_id": "Q066",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q067",
+        "action": "evaluate",
+        "question_id": "Q067",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q068",
+        "action": "evaluate",
+        "question_id": "Q068",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q069",
+        "action": "evaluate",
+        "question_id": "Q069",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q070",
+        "action": "evaluate",
+        "question_id": "Q070",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q071",
+        "action": "evaluate",
+        "question_id": "Q071",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q072",
+        "action": "evaluate",
+        "question_id": "Q072",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q073",
+        "action": "evaluate",
+        "question_id": "Q073",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q074",
+        "action": "evaluate",
+        "question_id": "Q074",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q075",
+        "action": "evaluate",
+        "question_id": "Q075",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q076",
+        "action": "evaluate",
+        "question_id": "Q076",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q077",
+        "action": "evaluate",
+        "question_id": "Q077",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q078",
+        "action": "evaluate",
+        "question_id": "Q078",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:pre_consolidation:Q079",
+        "action": "evaluate",
+        "question_id": "Q079",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 10,
+        "sessions": [
+          10
+        ]
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q043",
+        "action": "evaluate",
+        "question_id": "Q043",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q044",
+        "action": "evaluate",
+        "question_id": "Q044",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q045",
+        "action": "evaluate",
+        "question_id": "Q045",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q046",
+        "action": "evaluate",
+        "question_id": "Q046",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q047",
+        "action": "evaluate",
+        "question_id": "Q047",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q048",
+        "action": "evaluate",
+        "question_id": "Q048",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q049",
+        "action": "evaluate",
+        "question_id": "Q049",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q050",
+        "action": "evaluate",
+        "question_id": "Q050",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q064",
+        "action": "evaluate",
+        "question_id": "Q064",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q065",
+        "action": "evaluate",
+        "question_id": "Q065",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q066",
+        "action": "evaluate",
+        "question_id": "Q066",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q067",
+        "action": "evaluate",
+        "question_id": "Q067",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q068",
+        "action": "evaluate",
+        "question_id": "Q068",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q069",
+        "action": "evaluate",
+        "question_id": "Q069",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q070",
+        "action": "evaluate",
+        "question_id": "Q070",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q071",
+        "action": "evaluate",
+        "question_id": "Q071",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q072",
+        "action": "evaluate",
+        "question_id": "Q072",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q073",
+        "action": "evaluate",
+        "question_id": "Q073",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q074",
+        "action": "evaluate",
+        "question_id": "Q074",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q075",
+        "action": "evaluate",
+        "question_id": "Q075",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q076",
+        "action": "evaluate",
+        "question_id": "Q076",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q077",
+        "action": "evaluate",
+        "question_id": "Q077",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q078",
+        "action": "evaluate",
+        "question_id": "Q078",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:S10:checkpoint:Q079",
+        "action": "evaluate",
+        "question_id": "Q079",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P1:final_alias:Q051",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q051",
+        "source_event_id": "P1:S10:checkpoint:Q043",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q052",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q052",
+        "source_event_id": "P1:S10:checkpoint:Q044",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q053",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q053",
+        "source_event_id": "P1:S10:checkpoint:Q045",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q054",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q054",
+        "source_event_id": "P1:S10:checkpoint:Q046",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q055",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q055",
+        "source_event_id": "P1:S10:checkpoint:Q047",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q056",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q056",
+        "source_event_id": "P1:S10:checkpoint:Q048",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q057",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q057",
+        "source_event_id": "P1:S10:checkpoint:Q049",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q058",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q058",
+        "source_event_id": "P1:S10:checkpoint:Q050",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q080",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q080",
+        "source_event_id": "P1:S10:checkpoint:Q064",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q081",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q081",
+        "source_event_id": "P1:S10:checkpoint:Q065",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q082",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q082",
+        "source_event_id": "P1:S10:checkpoint:Q066",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q083",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q083",
+        "source_event_id": "P1:S10:checkpoint:Q067",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q084",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q084",
+        "source_event_id": "P1:S10:checkpoint:Q068",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q085",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q085",
+        "source_event_id": "P1:S10:checkpoint:Q069",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q086",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q086",
+        "source_event_id": "P1:S10:checkpoint:Q070",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q087",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q087",
+        "source_event_id": "P1:S10:checkpoint:Q071",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q088",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q088",
+        "source_event_id": "P1:S10:checkpoint:Q072",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q089",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q089",
+        "source_event_id": "P1:S10:checkpoint:Q073",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q090",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q090",
+        "source_event_id": "P1:S10:checkpoint:Q074",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q091",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q091",
+        "source_event_id": "P1:S10:checkpoint:Q075",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q092",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q092",
+        "source_event_id": "P1:S10:checkpoint:Q076",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q093",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q093",
+        "source_event_id": "P1:S10:checkpoint:Q077",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q094",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q094",
+        "source_event_id": "P1:S10:checkpoint:Q078",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P1:final_alias:Q095",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q095",
+        "source_event_id": "P1:S10:checkpoint:Q079",
+        "reason": "unchanged final state"
+      }
+    ],
+    "pairs": [
+      {
+        "question_id": "Q001",
+        "after_session": 1,
+        "before": "P1:S01:pre_consolidation:Q001",
+        "after": "P1:S01:checkpoint:Q001",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q002",
+        "after_session": 1,
+        "before": "P1:S01:pre_consolidation:Q002",
+        "after": "P1:S01:checkpoint:Q002",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q003",
+        "after_session": 1,
+        "before": "P1:S01:pre_consolidation:Q003",
+        "after": "P1:S01:checkpoint:Q003",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q004",
+        "after_session": 2,
+        "before": "P1:S02:pre_consolidation:Q004",
+        "after": "P1:S02:checkpoint:Q004",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q005",
+        "after_session": 2,
+        "before": "P1:S02:pre_consolidation:Q005",
+        "after": "P1:S02:checkpoint:Q005",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q006",
+        "after_session": 2,
+        "before": "P1:S02:pre_consolidation:Q006",
+        "after": "P1:S02:checkpoint:Q006",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q007",
+        "after_session": 3,
+        "before": "P1:S03:pre_consolidation:Q007",
+        "after": "P1:S03:checkpoint:Q007",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q008",
+        "after_session": 3,
+        "before": "P1:S03:pre_consolidation:Q008",
+        "after": "P1:S03:checkpoint:Q008",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q009",
+        "after_session": 3,
+        "before": "P1:S03:pre_consolidation:Q009",
+        "after": "P1:S03:checkpoint:Q009",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q010",
+        "after_session": 3,
+        "before": "P1:S03:pre_consolidation:Q010",
+        "after": "P1:S03:checkpoint:Q010",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q011",
+        "after_session": 4,
+        "before": "P1:S04:pre_consolidation:Q011",
+        "after": "P1:S04:checkpoint:Q011",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q012",
+        "after_session": 4,
+        "before": "P1:S04:pre_consolidation:Q012",
+        "after": "P1:S04:checkpoint:Q012",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q013",
+        "after_session": 4,
+        "before": "P1:S04:pre_consolidation:Q013",
+        "after": "P1:S04:checkpoint:Q013",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q014",
+        "after_session": 4,
+        "before": "P1:S04:pre_consolidation:Q014",
+        "after": "P1:S04:checkpoint:Q014",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q015",
+        "after_session": 4,
+        "before": "P1:S04:pre_consolidation:Q015",
+        "after": "P1:S04:checkpoint:Q015",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q016",
+        "after_session": 5,
+        "before": "P1:S05:pre_consolidation:Q016",
+        "after": "P1:S05:checkpoint:Q016",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q017",
+        "after_session": 5,
+        "before": "P1:S05:pre_consolidation:Q017",
+        "after": "P1:S05:checkpoint:Q017",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q018",
+        "after_session": 5,
+        "before": "P1:S05:pre_consolidation:Q018",
+        "after": "P1:S05:checkpoint:Q018",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q019",
+        "after_session": 5,
+        "before": "P1:S05:pre_consolidation:Q019",
+        "after": "P1:S05:checkpoint:Q019",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q020",
+        "after_session": 5,
+        "before": "P1:S05:pre_consolidation:Q020",
+        "after": "P1:S05:checkpoint:Q020",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q021",
+        "after_session": 6,
+        "before": "P1:S06:pre_consolidation:Q021",
+        "after": "P1:S06:checkpoint:Q021",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q022",
+        "after_session": 6,
+        "before": "P1:S06:pre_consolidation:Q022",
+        "after": "P1:S06:checkpoint:Q022",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q023",
+        "after_session": 6,
+        "before": "P1:S06:pre_consolidation:Q023",
+        "after": "P1:S06:checkpoint:Q023",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q024",
+        "after_session": 6,
+        "before": "P1:S06:pre_consolidation:Q024",
+        "after": "P1:S06:checkpoint:Q024",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q025",
+        "after_session": 6,
+        "before": "P1:S06:pre_consolidation:Q025",
+        "after": "P1:S06:checkpoint:Q025",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q026",
+        "after_session": 7,
+        "before": "P1:S07:pre_consolidation:Q026",
+        "after": "P1:S07:checkpoint:Q026",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q027",
+        "after_session": 7,
+        "before": "P1:S07:pre_consolidation:Q027",
+        "after": "P1:S07:checkpoint:Q027",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q028",
+        "after_session": 7,
+        "before": "P1:S07:pre_consolidation:Q028",
+        "after": "P1:S07:checkpoint:Q028",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q029",
+        "after_session": 7,
+        "before": "P1:S07:pre_consolidation:Q029",
+        "after": "P1:S07:checkpoint:Q029",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q030",
+        "after_session": 7,
+        "before": "P1:S07:pre_consolidation:Q030",
+        "after": "P1:S07:checkpoint:Q030",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q031",
+        "after_session": 8,
+        "before": "P1:S08:pre_consolidation:Q031",
+        "after": "P1:S08:checkpoint:Q031",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q032",
+        "after_session": 8,
+        "before": "P1:S08:pre_consolidation:Q032",
+        "after": "P1:S08:checkpoint:Q032",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q033",
+        "after_session": 8,
+        "before": "P1:S08:pre_consolidation:Q033",
+        "after": "P1:S08:checkpoint:Q033",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q034",
+        "after_session": 8,
+        "before": "P1:S08:pre_consolidation:Q034",
+        "after": "P1:S08:checkpoint:Q034",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q035",
+        "after_session": 8,
+        "before": "P1:S08:pre_consolidation:Q035",
+        "after": "P1:S08:checkpoint:Q035",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q036",
+        "after_session": 8,
+        "before": "P1:S08:pre_consolidation:Q036",
+        "after": "P1:S08:checkpoint:Q036",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q037",
+        "after_session": 9,
+        "before": "P1:S09:pre_consolidation:Q037",
+        "after": "P1:S09:checkpoint:Q037",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q038",
+        "after_session": 9,
+        "before": "P1:S09:pre_consolidation:Q038",
+        "after": "P1:S09:checkpoint:Q038",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q039",
+        "after_session": 9,
+        "before": "P1:S09:pre_consolidation:Q039",
+        "after": "P1:S09:checkpoint:Q039",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q040",
+        "after_session": 9,
+        "before": "P1:S09:pre_consolidation:Q040",
+        "after": "P1:S09:checkpoint:Q040",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q041",
+        "after_session": 9,
+        "before": "P1:S09:pre_consolidation:Q041",
+        "after": "P1:S09:checkpoint:Q041",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q042",
+        "after_session": 9,
+        "before": "P1:S09:pre_consolidation:Q042",
+        "after": "P1:S09:checkpoint:Q042",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q043",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q043",
+        "after": "P1:S10:checkpoint:Q043",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q044",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q044",
+        "after": "P1:S10:checkpoint:Q044",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q045",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q045",
+        "after": "P1:S10:checkpoint:Q045",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q046",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q046",
+        "after": "P1:S10:checkpoint:Q046",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q047",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q047",
+        "after": "P1:S10:checkpoint:Q047",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q048",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q048",
+        "after": "P1:S10:checkpoint:Q048",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q049",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q049",
+        "after": "P1:S10:checkpoint:Q049",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q050",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q050",
+        "after": "P1:S10:checkpoint:Q050",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q064",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q064",
+        "after": "P1:S10:checkpoint:Q064",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q065",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q065",
+        "after": "P1:S10:checkpoint:Q065",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q066",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q066",
+        "after": "P1:S10:checkpoint:Q066",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q067",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q067",
+        "after": "P1:S10:checkpoint:Q067",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q068",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q068",
+        "after": "P1:S10:checkpoint:Q068",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q069",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q069",
+        "after": "P1:S10:checkpoint:Q069",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q070",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q070",
+        "after": "P1:S10:checkpoint:Q070",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q071",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q071",
+        "after": "P1:S10:checkpoint:Q071",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q072",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q072",
+        "after": "P1:S10:checkpoint:Q072",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q073",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q073",
+        "after": "P1:S10:checkpoint:Q073",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q074",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q074",
+        "after": "P1:S10:checkpoint:Q074",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q075",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q075",
+        "after": "P1:S10:checkpoint:Q075",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q076",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q076",
+        "after": "P1:S10:checkpoint:Q076",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q077",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q077",
+        "after": "P1:S10:checkpoint:Q077",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q078",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q078",
+        "after": "P1:S10:checkpoint:Q078",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q079",
+        "after_session": 10,
+        "before": "P1:S10:pre_consolidation:Q079",
+        "after": "P1:S10:checkpoint:Q079",
+        "kind": "scheduled"
+      }
+    ],
+    "evaluation_calls": 137,
+    "consolidation_runs": 10,
+    "final_result_count": 24,
+    "no_evaluation_writeback": true
+  },
+  "P3": {
+    "policy": "P3",
+    "period_sessions": 3,
+    "events": [
+      {
+        "event_id": "P3:S01:checkpoint:Q001",
+        "action": "evaluate",
+        "question_id": "Q001",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S01:checkpoint:Q002",
+        "action": "evaluate",
+        "question_id": "Q002",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S01:checkpoint:Q003",
+        "action": "evaluate",
+        "question_id": "Q003",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S02:checkpoint:Q004",
+        "action": "evaluate",
+        "question_id": "Q004",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 0,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S02:checkpoint:Q005",
+        "action": "evaluate",
+        "question_id": "Q005",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 0,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S02:checkpoint:Q006",
+        "action": "evaluate",
+        "question_id": "Q006",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 0,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:in_session:Q059",
+        "action": "evaluate",
+        "question_id": "Q059",
+        "phase": "in_session",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": "LMME-v1-S03-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:pre_consolidation:Q007",
+        "action": "evaluate",
+        "question_id": "Q007",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:pre_consolidation:Q008",
+        "action": "evaluate",
+        "question_id": "Q008",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:pre_consolidation:Q009",
+        "action": "evaluate",
+        "question_id": "Q009",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:pre_consolidation:Q010",
+        "action": "evaluate",
+        "question_id": "Q010",
+        "phase": "pre_consolidation",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 3,
+        "sessions": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "event_id": "P3:S03:checkpoint:Q007",
+        "action": "evaluate",
+        "question_id": "Q007",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:checkpoint:Q008",
+        "action": "evaluate",
+        "question_id": "Q008",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:checkpoint:Q009",
+        "action": "evaluate",
+        "question_id": "Q009",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S03:checkpoint:Q010",
+        "action": "evaluate",
+        "question_id": "Q010",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 3,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S04:in_session:Q060",
+        "action": "evaluate",
+        "question_id": "Q060",
+        "phase": "in_session",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": "LMME-v1-S04-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S04:checkpoint:Q011",
+        "action": "evaluate",
+        "question_id": "Q011",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S04:checkpoint:Q012",
+        "action": "evaluate",
+        "question_id": "Q012",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S04:checkpoint:Q013",
+        "action": "evaluate",
+        "question_id": "Q013",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S04:checkpoint:Q014",
+        "action": "evaluate",
+        "question_id": "Q014",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S04:checkpoint:Q015",
+        "action": "evaluate",
+        "question_id": "Q015",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 3,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S05:in_session:Q061",
+        "action": "evaluate",
+        "question_id": "Q061",
+        "phase": "in_session",
+        "after_session": 5,
+        "processed_through": 3,
+        "visible_through": 5,
+        "after_turn_id": "LMME-v1-S05-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S05:checkpoint:Q016",
+        "action": "evaluate",
+        "question_id": "Q016",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 3,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S05:checkpoint:Q017",
+        "action": "evaluate",
+        "question_id": "Q017",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 3,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S05:checkpoint:Q018",
+        "action": "evaluate",
+        "question_id": "Q018",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 3,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S05:checkpoint:Q019",
+        "action": "evaluate",
+        "question_id": "Q019",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 3,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S05:checkpoint:Q020",
+        "action": "evaluate",
+        "question_id": "Q020",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 3,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:pre_consolidation:Q021",
+        "action": "evaluate",
+        "question_id": "Q021",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 3,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:pre_consolidation:Q022",
+        "action": "evaluate",
+        "question_id": "Q022",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 3,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:pre_consolidation:Q023",
+        "action": "evaluate",
+        "question_id": "Q023",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 3,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:pre_consolidation:Q024",
+        "action": "evaluate",
+        "question_id": "Q024",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 3,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:pre_consolidation:Q025",
+        "action": "evaluate",
+        "question_id": "Q025",
+        "phase": "pre_consolidation",
+        "after_session": 6,
+        "processed_through": 3,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 6,
+        "sessions": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "event_id": "P3:S06:checkpoint:Q021",
+        "action": "evaluate",
+        "question_id": "Q021",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:checkpoint:Q022",
+        "action": "evaluate",
+        "question_id": "Q022",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:checkpoint:Q023",
+        "action": "evaluate",
+        "question_id": "Q023",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:checkpoint:Q024",
+        "action": "evaluate",
+        "question_id": "Q024",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S06:checkpoint:Q025",
+        "action": "evaluate",
+        "question_id": "Q025",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 6,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S07:checkpoint:Q026",
+        "action": "evaluate",
+        "question_id": "Q026",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S07:checkpoint:Q027",
+        "action": "evaluate",
+        "question_id": "Q027",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S07:checkpoint:Q028",
+        "action": "evaluate",
+        "question_id": "Q028",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S07:checkpoint:Q029",
+        "action": "evaluate",
+        "question_id": "Q029",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S07:checkpoint:Q030",
+        "action": "evaluate",
+        "question_id": "Q030",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 6,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S08:checkpoint:Q031",
+        "action": "evaluate",
+        "question_id": "Q031",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 6,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S08:checkpoint:Q032",
+        "action": "evaluate",
+        "question_id": "Q032",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 6,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S08:checkpoint:Q033",
+        "action": "evaluate",
+        "question_id": "Q033",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 6,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S08:checkpoint:Q034",
+        "action": "evaluate",
+        "question_id": "Q034",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 6,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S08:checkpoint:Q035",
+        "action": "evaluate",
+        "question_id": "Q035",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 6,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S08:checkpoint:Q036",
+        "action": "evaluate",
+        "question_id": "Q036",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 6,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:in_session:Q062",
+        "action": "evaluate",
+        "question_id": "Q062",
+        "phase": "in_session",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": "LMME-v1-S09-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:in_session:Q063",
+        "action": "evaluate",
+        "question_id": "Q063",
+        "phase": "in_session",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": "LMME-v1-S09-T003",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:pre_consolidation:Q037",
+        "action": "evaluate",
+        "question_id": "Q037",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:pre_consolidation:Q038",
+        "action": "evaluate",
+        "question_id": "Q038",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:pre_consolidation:Q039",
+        "action": "evaluate",
+        "question_id": "Q039",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:pre_consolidation:Q040",
+        "action": "evaluate",
+        "question_id": "Q040",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:pre_consolidation:Q041",
+        "action": "evaluate",
+        "question_id": "Q041",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:pre_consolidation:Q042",
+        "action": "evaluate",
+        "question_id": "Q042",
+        "phase": "pre_consolidation",
+        "after_session": 9,
+        "processed_through": 6,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 9,
+        "sessions": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "event_id": "P3:S09:checkpoint:Q037",
+        "action": "evaluate",
+        "question_id": "Q037",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:checkpoint:Q038",
+        "action": "evaluate",
+        "question_id": "Q038",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:checkpoint:Q039",
+        "action": "evaluate",
+        "question_id": "Q039",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:checkpoint:Q040",
+        "action": "evaluate",
+        "question_id": "Q040",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:checkpoint:Q041",
+        "action": "evaluate",
+        "question_id": "Q041",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S09:checkpoint:Q042",
+        "action": "evaluate",
+        "question_id": "Q042",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 9,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q043",
+        "action": "evaluate",
+        "question_id": "Q043",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q044",
+        "action": "evaluate",
+        "question_id": "Q044",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q045",
+        "action": "evaluate",
+        "question_id": "Q045",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q046",
+        "action": "evaluate",
+        "question_id": "Q046",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q047",
+        "action": "evaluate",
+        "question_id": "Q047",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q048",
+        "action": "evaluate",
+        "question_id": "Q048",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q049",
+        "action": "evaluate",
+        "question_id": "Q049",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q050",
+        "action": "evaluate",
+        "question_id": "Q050",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q064",
+        "action": "evaluate",
+        "question_id": "Q064",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q065",
+        "action": "evaluate",
+        "question_id": "Q065",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q066",
+        "action": "evaluate",
+        "question_id": "Q066",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q067",
+        "action": "evaluate",
+        "question_id": "Q067",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q068",
+        "action": "evaluate",
+        "question_id": "Q068",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q069",
+        "action": "evaluate",
+        "question_id": "Q069",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q070",
+        "action": "evaluate",
+        "question_id": "Q070",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q071",
+        "action": "evaluate",
+        "question_id": "Q071",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q072",
+        "action": "evaluate",
+        "question_id": "Q072",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q073",
+        "action": "evaluate",
+        "question_id": "Q073",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q074",
+        "action": "evaluate",
+        "question_id": "Q074",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q075",
+        "action": "evaluate",
+        "question_id": "Q075",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q076",
+        "action": "evaluate",
+        "question_id": "Q076",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q077",
+        "action": "evaluate",
+        "question_id": "Q077",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q078",
+        "action": "evaluate",
+        "question_id": "Q078",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:checkpoint:Q079",
+        "action": "evaluate",
+        "question_id": "Q079",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 9,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_save",
+        "action": "consolidate",
+        "phase": "final_save",
+        "after_session": 10,
+        "sessions": [
+          10
+        ]
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q051",
+        "action": "evaluate",
+        "question_id": "Q051",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q052",
+        "action": "evaluate",
+        "question_id": "Q052",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q053",
+        "action": "evaluate",
+        "question_id": "Q053",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q054",
+        "action": "evaluate",
+        "question_id": "Q054",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q055",
+        "action": "evaluate",
+        "question_id": "Q055",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q056",
+        "action": "evaluate",
+        "question_id": "Q056",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q057",
+        "action": "evaluate",
+        "question_id": "Q057",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q058",
+        "action": "evaluate",
+        "question_id": "Q058",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q080",
+        "action": "evaluate",
+        "question_id": "Q080",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q081",
+        "action": "evaluate",
+        "question_id": "Q081",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q082",
+        "action": "evaluate",
+        "question_id": "Q082",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q083",
+        "action": "evaluate",
+        "question_id": "Q083",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q084",
+        "action": "evaluate",
+        "question_id": "Q084",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q085",
+        "action": "evaluate",
+        "question_id": "Q085",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q086",
+        "action": "evaluate",
+        "question_id": "Q086",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q087",
+        "action": "evaluate",
+        "question_id": "Q087",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q088",
+        "action": "evaluate",
+        "question_id": "Q088",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q089",
+        "action": "evaluate",
+        "question_id": "Q089",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q090",
+        "action": "evaluate",
+        "question_id": "Q090",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q091",
+        "action": "evaluate",
+        "question_id": "Q091",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q092",
+        "action": "evaluate",
+        "question_id": "Q092",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q093",
+        "action": "evaluate",
+        "question_id": "Q093",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q094",
+        "action": "evaluate",
+        "question_id": "Q094",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P3:S10:final_flush:Q095",
+        "action": "evaluate",
+        "question_id": "Q095",
+        "phase": "final_flush",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      }
+    ],
+    "pairs": [
+      {
+        "question_id": "Q007",
+        "after_session": 3,
+        "before": "P3:S03:pre_consolidation:Q007",
+        "after": "P3:S03:checkpoint:Q007",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q008",
+        "after_session": 3,
+        "before": "P3:S03:pre_consolidation:Q008",
+        "after": "P3:S03:checkpoint:Q008",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q009",
+        "after_session": 3,
+        "before": "P3:S03:pre_consolidation:Q009",
+        "after": "P3:S03:checkpoint:Q009",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q010",
+        "after_session": 3,
+        "before": "P3:S03:pre_consolidation:Q010",
+        "after": "P3:S03:checkpoint:Q010",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q021",
+        "after_session": 6,
+        "before": "P3:S06:pre_consolidation:Q021",
+        "after": "P3:S06:checkpoint:Q021",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q022",
+        "after_session": 6,
+        "before": "P3:S06:pre_consolidation:Q022",
+        "after": "P3:S06:checkpoint:Q022",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q023",
+        "after_session": 6,
+        "before": "P3:S06:pre_consolidation:Q023",
+        "after": "P3:S06:checkpoint:Q023",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q024",
+        "after_session": 6,
+        "before": "P3:S06:pre_consolidation:Q024",
+        "after": "P3:S06:checkpoint:Q024",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q025",
+        "after_session": 6,
+        "before": "P3:S06:pre_consolidation:Q025",
+        "after": "P3:S06:checkpoint:Q025",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q037",
+        "after_session": 9,
+        "before": "P3:S09:pre_consolidation:Q037",
+        "after": "P3:S09:checkpoint:Q037",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q038",
+        "after_session": 9,
+        "before": "P3:S09:pre_consolidation:Q038",
+        "after": "P3:S09:checkpoint:Q038",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q039",
+        "after_session": 9,
+        "before": "P3:S09:pre_consolidation:Q039",
+        "after": "P3:S09:checkpoint:Q039",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q040",
+        "after_session": 9,
+        "before": "P3:S09:pre_consolidation:Q040",
+        "after": "P3:S09:checkpoint:Q040",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q041",
+        "after_session": 9,
+        "before": "P3:S09:pre_consolidation:Q041",
+        "after": "P3:S09:checkpoint:Q041",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q042",
+        "after_session": 9,
+        "before": "P3:S09:pre_consolidation:Q042",
+        "after": "P3:S09:checkpoint:Q042",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q043",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q043",
+        "after": "P3:S10:final_flush:Q051",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q044",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q044",
+        "after": "P3:S10:final_flush:Q052",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q045",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q045",
+        "after": "P3:S10:final_flush:Q053",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q046",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q046",
+        "after": "P3:S10:final_flush:Q054",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q047",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q047",
+        "after": "P3:S10:final_flush:Q055",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q048",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q048",
+        "after": "P3:S10:final_flush:Q056",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q049",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q049",
+        "after": "P3:S10:final_flush:Q057",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q050",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q050",
+        "after": "P3:S10:final_flush:Q058",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q064",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q064",
+        "after": "P3:S10:final_flush:Q080",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q065",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q065",
+        "after": "P3:S10:final_flush:Q081",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q066",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q066",
+        "after": "P3:S10:final_flush:Q082",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q067",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q067",
+        "after": "P3:S10:final_flush:Q083",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q068",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q068",
+        "after": "P3:S10:final_flush:Q084",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q069",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q069",
+        "after": "P3:S10:final_flush:Q085",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q070",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q070",
+        "after": "P3:S10:final_flush:Q086",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q071",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q071",
+        "after": "P3:S10:final_flush:Q087",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q072",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q072",
+        "after": "P3:S10:final_flush:Q088",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q073",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q073",
+        "after": "P3:S10:final_flush:Q089",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q074",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q074",
+        "after": "P3:S10:final_flush:Q090",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q075",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q075",
+        "after": "P3:S10:final_flush:Q091",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q076",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q076",
+        "after": "P3:S10:final_flush:Q092",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q077",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q077",
+        "after": "P3:S10:final_flush:Q093",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q078",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q078",
+        "after": "P3:S10:final_flush:Q094",
+        "kind": "final"
+      },
+      {
+        "question_id": "Q079",
+        "after_session": 10,
+        "before": "P3:S10:checkpoint:Q079",
+        "after": "P3:S10:final_flush:Q095",
+        "kind": "final"
+      }
+    ],
+    "evaluation_calls": 110,
+    "consolidation_runs": 4,
+    "final_result_count": 24,
+    "no_evaluation_writeback": true
+  },
+  "P5": {
+    "policy": "P5",
+    "period_sessions": 5,
+    "events": [
+      {
+        "event_id": "P5:S01:checkpoint:Q001",
+        "action": "evaluate",
+        "question_id": "Q001",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S01:checkpoint:Q002",
+        "action": "evaluate",
+        "question_id": "Q002",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S01:checkpoint:Q003",
+        "action": "evaluate",
+        "question_id": "Q003",
+        "phase": "checkpoint",
+        "after_session": 1,
+        "processed_through": 0,
+        "visible_through": 1,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S02:checkpoint:Q004",
+        "action": "evaluate",
+        "question_id": "Q004",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 0,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S02:checkpoint:Q005",
+        "action": "evaluate",
+        "question_id": "Q005",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 0,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S02:checkpoint:Q006",
+        "action": "evaluate",
+        "question_id": "Q006",
+        "phase": "checkpoint",
+        "after_session": 2,
+        "processed_through": 0,
+        "visible_through": 2,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S03:in_session:Q059",
+        "action": "evaluate",
+        "question_id": "Q059",
+        "phase": "in_session",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": "LMME-v1-S03-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S03:checkpoint:Q007",
+        "action": "evaluate",
+        "question_id": "Q007",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S03:checkpoint:Q008",
+        "action": "evaluate",
+        "question_id": "Q008",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S03:checkpoint:Q009",
+        "action": "evaluate",
+        "question_id": "Q009",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S03:checkpoint:Q010",
+        "action": "evaluate",
+        "question_id": "Q010",
+        "phase": "checkpoint",
+        "after_session": 3,
+        "processed_through": 0,
+        "visible_through": 3,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S04:in_session:Q060",
+        "action": "evaluate",
+        "question_id": "Q060",
+        "phase": "in_session",
+        "after_session": 4,
+        "processed_through": 0,
+        "visible_through": 4,
+        "after_turn_id": "LMME-v1-S04-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S04:checkpoint:Q011",
+        "action": "evaluate",
+        "question_id": "Q011",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 0,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S04:checkpoint:Q012",
+        "action": "evaluate",
+        "question_id": "Q012",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 0,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S04:checkpoint:Q013",
+        "action": "evaluate",
+        "question_id": "Q013",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 0,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S04:checkpoint:Q014",
+        "action": "evaluate",
+        "question_id": "Q014",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 0,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S04:checkpoint:Q015",
+        "action": "evaluate",
+        "question_id": "Q015",
+        "phase": "checkpoint",
+        "after_session": 4,
+        "processed_through": 0,
+        "visible_through": 4,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:in_session:Q061",
+        "action": "evaluate",
+        "question_id": "Q061",
+        "phase": "in_session",
+        "after_session": 5,
+        "processed_through": 0,
+        "visible_through": 5,
+        "after_turn_id": "LMME-v1-S05-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:pre_consolidation:Q016",
+        "action": "evaluate",
+        "question_id": "Q016",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 0,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:pre_consolidation:Q017",
+        "action": "evaluate",
+        "question_id": "Q017",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 0,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:pre_consolidation:Q018",
+        "action": "evaluate",
+        "question_id": "Q018",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 0,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:pre_consolidation:Q019",
+        "action": "evaluate",
+        "question_id": "Q019",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 0,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:pre_consolidation:Q020",
+        "action": "evaluate",
+        "question_id": "Q020",
+        "phase": "pre_consolidation",
+        "after_session": 5,
+        "processed_through": 0,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 5,
+        "sessions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "event_id": "P5:S05:checkpoint:Q016",
+        "action": "evaluate",
+        "question_id": "Q016",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:checkpoint:Q017",
+        "action": "evaluate",
+        "question_id": "Q017",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:checkpoint:Q018",
+        "action": "evaluate",
+        "question_id": "Q018",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:checkpoint:Q019",
+        "action": "evaluate",
+        "question_id": "Q019",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S05:checkpoint:Q020",
+        "action": "evaluate",
+        "question_id": "Q020",
+        "phase": "checkpoint",
+        "after_session": 5,
+        "processed_through": 5,
+        "visible_through": 5,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S06:checkpoint:Q021",
+        "action": "evaluate",
+        "question_id": "Q021",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S06:checkpoint:Q022",
+        "action": "evaluate",
+        "question_id": "Q022",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S06:checkpoint:Q023",
+        "action": "evaluate",
+        "question_id": "Q023",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S06:checkpoint:Q024",
+        "action": "evaluate",
+        "question_id": "Q024",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S06:checkpoint:Q025",
+        "action": "evaluate",
+        "question_id": "Q025",
+        "phase": "checkpoint",
+        "after_session": 6,
+        "processed_through": 5,
+        "visible_through": 6,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S07:checkpoint:Q026",
+        "action": "evaluate",
+        "question_id": "Q026",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 5,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S07:checkpoint:Q027",
+        "action": "evaluate",
+        "question_id": "Q027",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 5,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S07:checkpoint:Q028",
+        "action": "evaluate",
+        "question_id": "Q028",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 5,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S07:checkpoint:Q029",
+        "action": "evaluate",
+        "question_id": "Q029",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 5,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S07:checkpoint:Q030",
+        "action": "evaluate",
+        "question_id": "Q030",
+        "phase": "checkpoint",
+        "after_session": 7,
+        "processed_through": 5,
+        "visible_through": 7,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S08:checkpoint:Q031",
+        "action": "evaluate",
+        "question_id": "Q031",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 5,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S08:checkpoint:Q032",
+        "action": "evaluate",
+        "question_id": "Q032",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 5,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S08:checkpoint:Q033",
+        "action": "evaluate",
+        "question_id": "Q033",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 5,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S08:checkpoint:Q034",
+        "action": "evaluate",
+        "question_id": "Q034",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 5,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S08:checkpoint:Q035",
+        "action": "evaluate",
+        "question_id": "Q035",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 5,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S08:checkpoint:Q036",
+        "action": "evaluate",
+        "question_id": "Q036",
+        "phase": "checkpoint",
+        "after_session": 8,
+        "processed_through": 5,
+        "visible_through": 8,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:in_session:Q062",
+        "action": "evaluate",
+        "question_id": "Q062",
+        "phase": "in_session",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": "LMME-v1-S09-T001",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:in_session:Q063",
+        "action": "evaluate",
+        "question_id": "Q063",
+        "phase": "in_session",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": "LMME-v1-S09-T003",
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:checkpoint:Q037",
+        "action": "evaluate",
+        "question_id": "Q037",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:checkpoint:Q038",
+        "action": "evaluate",
+        "question_id": "Q038",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:checkpoint:Q039",
+        "action": "evaluate",
+        "question_id": "Q039",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:checkpoint:Q040",
+        "action": "evaluate",
+        "question_id": "Q040",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:checkpoint:Q041",
+        "action": "evaluate",
+        "question_id": "Q041",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S09:checkpoint:Q042",
+        "action": "evaluate",
+        "question_id": "Q042",
+        "phase": "checkpoint",
+        "after_session": 9,
+        "processed_through": 5,
+        "visible_through": 9,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q043",
+        "action": "evaluate",
+        "question_id": "Q043",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q044",
+        "action": "evaluate",
+        "question_id": "Q044",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q045",
+        "action": "evaluate",
+        "question_id": "Q045",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q046",
+        "action": "evaluate",
+        "question_id": "Q046",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q047",
+        "action": "evaluate",
+        "question_id": "Q047",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q048",
+        "action": "evaluate",
+        "question_id": "Q048",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q049",
+        "action": "evaluate",
+        "question_id": "Q049",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q050",
+        "action": "evaluate",
+        "question_id": "Q050",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q064",
+        "action": "evaluate",
+        "question_id": "Q064",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q065",
+        "action": "evaluate",
+        "question_id": "Q065",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q066",
+        "action": "evaluate",
+        "question_id": "Q066",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q067",
+        "action": "evaluate",
+        "question_id": "Q067",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q068",
+        "action": "evaluate",
+        "question_id": "Q068",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q069",
+        "action": "evaluate",
+        "question_id": "Q069",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q070",
+        "action": "evaluate",
+        "question_id": "Q070",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q071",
+        "action": "evaluate",
+        "question_id": "Q071",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q072",
+        "action": "evaluate",
+        "question_id": "Q072",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q073",
+        "action": "evaluate",
+        "question_id": "Q073",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q074",
+        "action": "evaluate",
+        "question_id": "Q074",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q075",
+        "action": "evaluate",
+        "question_id": "Q075",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q076",
+        "action": "evaluate",
+        "question_id": "Q076",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q077",
+        "action": "evaluate",
+        "question_id": "Q077",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q078",
+        "action": "evaluate",
+        "question_id": "Q078",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:pre_consolidation:Q079",
+        "action": "evaluate",
+        "question_id": "Q079",
+        "phase": "pre_consolidation",
+        "after_session": 10,
+        "processed_through": 5,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:scheduled_save",
+        "action": "consolidate",
+        "phase": "scheduled_save",
+        "after_session": 10,
+        "sessions": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q043",
+        "action": "evaluate",
+        "question_id": "Q043",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q044",
+        "action": "evaluate",
+        "question_id": "Q044",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q045",
+        "action": "evaluate",
+        "question_id": "Q045",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q046",
+        "action": "evaluate",
+        "question_id": "Q046",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q047",
+        "action": "evaluate",
+        "question_id": "Q047",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q048",
+        "action": "evaluate",
+        "question_id": "Q048",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q049",
+        "action": "evaluate",
+        "question_id": "Q049",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q050",
+        "action": "evaluate",
+        "question_id": "Q050",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q064",
+        "action": "evaluate",
+        "question_id": "Q064",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q065",
+        "action": "evaluate",
+        "question_id": "Q065",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q066",
+        "action": "evaluate",
+        "question_id": "Q066",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q067",
+        "action": "evaluate",
+        "question_id": "Q067",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q068",
+        "action": "evaluate",
+        "question_id": "Q068",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q069",
+        "action": "evaluate",
+        "question_id": "Q069",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q070",
+        "action": "evaluate",
+        "question_id": "Q070",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q071",
+        "action": "evaluate",
+        "question_id": "Q071",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q072",
+        "action": "evaluate",
+        "question_id": "Q072",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q073",
+        "action": "evaluate",
+        "question_id": "Q073",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q074",
+        "action": "evaluate",
+        "question_id": "Q074",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q075",
+        "action": "evaluate",
+        "question_id": "Q075",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q076",
+        "action": "evaluate",
+        "question_id": "Q076",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q077",
+        "action": "evaluate",
+        "question_id": "Q077",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q078",
+        "action": "evaluate",
+        "question_id": "Q078",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:S10:checkpoint:Q079",
+        "action": "evaluate",
+        "question_id": "Q079",
+        "phase": "checkpoint",
+        "after_session": 10,
+        "processed_through": 10,
+        "visible_through": 10,
+        "after_turn_id": null,
+        "writeback": false,
+        "tools_enabled": false
+      },
+      {
+        "event_id": "P5:final_alias:Q051",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q051",
+        "source_event_id": "P5:S10:checkpoint:Q043",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q052",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q052",
+        "source_event_id": "P5:S10:checkpoint:Q044",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q053",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q053",
+        "source_event_id": "P5:S10:checkpoint:Q045",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q054",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q054",
+        "source_event_id": "P5:S10:checkpoint:Q046",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q055",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q055",
+        "source_event_id": "P5:S10:checkpoint:Q047",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q056",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q056",
+        "source_event_id": "P5:S10:checkpoint:Q048",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q057",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q057",
+        "source_event_id": "P5:S10:checkpoint:Q049",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q058",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q058",
+        "source_event_id": "P5:S10:checkpoint:Q050",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q080",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q080",
+        "source_event_id": "P5:S10:checkpoint:Q064",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q081",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q081",
+        "source_event_id": "P5:S10:checkpoint:Q065",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q082",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q082",
+        "source_event_id": "P5:S10:checkpoint:Q066",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q083",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q083",
+        "source_event_id": "P5:S10:checkpoint:Q067",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q084",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q084",
+        "source_event_id": "P5:S10:checkpoint:Q068",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q085",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q085",
+        "source_event_id": "P5:S10:checkpoint:Q069",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q086",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q086",
+        "source_event_id": "P5:S10:checkpoint:Q070",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q087",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q087",
+        "source_event_id": "P5:S10:checkpoint:Q071",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q088",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q088",
+        "source_event_id": "P5:S10:checkpoint:Q072",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q089",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q089",
+        "source_event_id": "P5:S10:checkpoint:Q073",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q090",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q090",
+        "source_event_id": "P5:S10:checkpoint:Q074",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q091",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q091",
+        "source_event_id": "P5:S10:checkpoint:Q075",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q092",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q092",
+        "source_event_id": "P5:S10:checkpoint:Q076",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q093",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q093",
+        "source_event_id": "P5:S10:checkpoint:Q077",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q094",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q094",
+        "source_event_id": "P5:S10:checkpoint:Q078",
+        "reason": "unchanged final state"
+      },
+      {
+        "event_id": "P5:final_alias:Q095",
+        "action": "reuse_answer",
+        "phase": "final_flush",
+        "question_id": "Q095",
+        "source_event_id": "P5:S10:checkpoint:Q079",
+        "reason": "unchanged final state"
+      }
+    ],
+    "pairs": [
+      {
+        "question_id": "Q016",
+        "after_session": 5,
+        "before": "P5:S05:pre_consolidation:Q016",
+        "after": "P5:S05:checkpoint:Q016",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q017",
+        "after_session": 5,
+        "before": "P5:S05:pre_consolidation:Q017",
+        "after": "P5:S05:checkpoint:Q017",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q018",
+        "after_session": 5,
+        "before": "P5:S05:pre_consolidation:Q018",
+        "after": "P5:S05:checkpoint:Q018",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q019",
+        "after_session": 5,
+        "before": "P5:S05:pre_consolidation:Q019",
+        "after": "P5:S05:checkpoint:Q019",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q020",
+        "after_session": 5,
+        "before": "P5:S05:pre_consolidation:Q020",
+        "after": "P5:S05:checkpoint:Q020",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q043",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q043",
+        "after": "P5:S10:checkpoint:Q043",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q044",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q044",
+        "after": "P5:S10:checkpoint:Q044",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q045",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q045",
+        "after": "P5:S10:checkpoint:Q045",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q046",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q046",
+        "after": "P5:S10:checkpoint:Q046",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q047",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q047",
+        "after": "P5:S10:checkpoint:Q047",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q048",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q048",
+        "after": "P5:S10:checkpoint:Q048",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q049",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q049",
+        "after": "P5:S10:checkpoint:Q049",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q050",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q050",
+        "after": "P5:S10:checkpoint:Q050",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q064",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q064",
+        "after": "P5:S10:checkpoint:Q064",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q065",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q065",
+        "after": "P5:S10:checkpoint:Q065",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q066",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q066",
+        "after": "P5:S10:checkpoint:Q066",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q067",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q067",
+        "after": "P5:S10:checkpoint:Q067",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q068",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q068",
+        "after": "P5:S10:checkpoint:Q068",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q069",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q069",
+        "after": "P5:S10:checkpoint:Q069",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q070",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q070",
+        "after": "P5:S10:checkpoint:Q070",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q071",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q071",
+        "after": "P5:S10:checkpoint:Q071",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q072",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q072",
+        "after": "P5:S10:checkpoint:Q072",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q073",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q073",
+        "after": "P5:S10:checkpoint:Q073",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q074",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q074",
+        "after": "P5:S10:checkpoint:Q074",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q075",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q075",
+        "after": "P5:S10:checkpoint:Q075",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q076",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q076",
+        "after": "P5:S10:checkpoint:Q076",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q077",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q077",
+        "after": "P5:S10:checkpoint:Q077",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q078",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q078",
+        "after": "P5:S10:checkpoint:Q078",
+        "kind": "scheduled"
+      },
+      {
+        "question_id": "Q079",
+        "after_session": 10,
+        "before": "P5:S10:pre_consolidation:Q079",
+        "after": "P5:S10:checkpoint:Q079",
+        "kind": "scheduled"
+      }
+    ],
+    "evaluation_calls": 100,
+    "consolidation_runs": 2,
+    "final_result_count": 24,
+    "no_evaluation_writeback": true
+  }
+}

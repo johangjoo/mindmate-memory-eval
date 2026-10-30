@@ -1,0 +1,23 @@
+다음 새 사실과 기존 유사 사실 후보를 비교해, 어떻게 처리할지 JSON 객체로만 답해라.
+
+새 사실:
+  content: {new_content}
+  memory_type: {new_type}
+  event_time: {new_event_time}
+
+기존 유사 사실 후보:
+{candidates_block}
+
+판단 기준:
+- ADD: 완전히 새로운 정보(후보들과 의미가 충분히 다름).
+- UPDATE: 기존 사실 중 하나의 상태/선호/사실이 자연스럽게 갱신됨(예: 이사, 직업 변경, 취향 변화). target_id에 어떤 사실을 갱신하는지 명시.
+- CONFLICT: 기존 사실과 모순됨(과거 진술이 틀렸음을 시사). target_id 명시.
+- NOOP: 기존 후보 중 하나와 사실상 같은 내용(중복). target_id 명시.
+
+다음 중 하나의 형태로만 출력:
+{{"action":"ADD","reason":"<짧은 설명>"}}
+{{"action":"UPDATE","target_id":<기존 memory_id>,"reason":"<짧은 설명>"}}
+{{"action":"CONFLICT","target_id":<기존 memory_id>,"reason":"<짧은 설명>"}}
+{{"action":"NOOP","target_id":<기존 memory_id>,"reason":"<짧은 설명>"}}
+
+JSON 객체만 출력. 다른 텍스트 금지.

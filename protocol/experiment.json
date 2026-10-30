@@ -1,0 +1,156 @@
+{
+  "title": "LongMindMemEval: MindMate memory storage case study",
+  "publication_date": "2026-10-30",
+  "experiment_dates": {
+    "gpt55": "2026-10-25",
+    "gpt54mini": "2026-10-28"
+  },
+  "dataset": "10 synthetic Korean sessions, 206 turns, 9560 o200k_base role:text tokens",
+  "original_dataset_id": "longmindmemeval_johangjoo_v3_mini_v4_20261027",
+  "initial_state": {
+    "user_id": "johangjoo",
+    "project": "MindMate",
+    "facts": [],
+    "tasks": [],
+    "reflections": [],
+    "note": "Do not import present production memory pack or persona; prevents future information leakage."
+  },
+  "models": [
+    {
+      "id": "gpt-5.5",
+      "snapshot_preferred": "gpt-5.5-2026-04-23",
+      "reasoning_effort": "medium",
+      "temperature": null,
+      "output_limit": 10000,
+      "mode": "json_object"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "snapshot_preferred": "gpt-5.4-mini-2026-03-17",
+      "reasoning_effort": "medium",
+      "temperature": null,
+      "output_limit": 10000,
+      "mode": "json_object",
+      "num_ctx": 400000,
+      "max_input_tokens": 272000
+    }
+  ],
+  "policies": [
+    {
+      "id": "P1",
+      "period_sessions": 1
+    },
+    {
+      "id": "P3",
+      "period_sessions": 3
+    },
+    {
+      "id": "P5",
+      "period_sessions": 5
+    }
+  ],
+  "reader": {
+    "model": "gpt-4o-2024-11-20",
+    "temperature": 0,
+    "max_output_tokens": 500,
+    "note": "fixed reader across all writers; measures memory effect, not Realtime voice end-to-end",
+    "pack_budget_chars": 4560,
+    "pack_section": "one shared section; same bound as current default shared section; not full 12000 chars",
+    "reflections_enabled": false,
+    "retrieval_enabled": false,
+    "tools": [],
+    "context": "fixed memory pack + unprocessed raw dialogue only; no archived/raw/fact search or fallback",
+    "function_calling_enabled": false,
+    "prohibited_fallbacks": [
+      "recall_memory",
+      "recall-detail",
+      "list_tasks",
+      "raw session search",
+      "fact search",
+      "whole historical raw injection after consolidation"
+    ]
+  },
+  "judge": {
+    "model": "gpt-4o-2024-11-20",
+    "max_output_tokens": 1000,
+    "temperature": 0
+  },
+  "scoring": {
+    "primary": "strict answer correctness 0/1 and token/USD cost; no additional stored-fact quality benchmark required",
+    "auxiliary": "minimal failure notes only, not a second required score",
+    "date_labels": [
+      "CURRENT_29",
+      "STALE_22",
+      "MISSING",
+      "BOTH_AMBIGUOUS",
+      "OTHER"
+    ],
+    "abstention": "correct only where gold unknown; not accepted for an observed date",
+    "clinical_status": "past medication and current medication separate items; no medical recommendations",
+    "judge": "blind model/condition identifiers; gold evidence and human review of disputed cases; evaluator never treats GPT-5.5 output as gold",
+    "repeat": "one run per condition pilot; no significance claim; 3 repeats for finalists in later stage",
+    "denominators": {
+      "common_checkpoint": 66,
+      "in_session": 5,
+      "final_panel": 24
+    },
+    "aggregation": "compare common checkpoints and final panel separately; paired save transitions diagnostic, differing counts not pooled across policies; P1/P5 final panel reuses S10 results",
+    "paired_changes": [
+      "correct_to_correct",
+      "correct_to_wrong",
+      "wrong_to_correct",
+      "wrong_to_wrong"
+    ],
+    "policy_exclusions": "mark each question requiring historical meals as retention-sensitive before run. Report all-answer accuracy and that fixed subgroup separately; never remove failed questions or change gold based on model output. Failure cause policy_excluded only with actual stored-fact/pack trace evidence."
+  },
+  "runtime": {
+    "consolidate": "after session ingestion, when period divides session index",
+    "midpoint_probe": "at selected user turn, before a later assistant answer or subsequent turn reveals information; isolated runtime snapshot; no consolidation caused by probe",
+    "checkpoint_probe": "at every session end: after scheduled consolidation when due, otherwise pack plus pending raw",
+    "final_flush": "P3 alone processes residual S10 and answers the same 24 final questions; P1/P5 reuse S10 checkpoint answers without another model call",
+    "evaluation_questions_writeback": false,
+    "evaluation_branch_effects": "discard question history, retrieval counters and caches written by evaluation; restore frozen state for each question",
+    "pack_refresh": "on session-date/state transition once as needed, freeze per question group; post-write pack built once; no per-question rebuild",
+    "paired_evaluation": "before every actual scheduled consolidation, ask the checkpoint questions for that session with old pack plus all pending raw; after consolidation, reuse checkpoint answers on new pack only",
+    "pre_save_pack": "freeze the pack actually used for this session before evaluating; do not rebuild or mutate selection counters per question"
+  },
+  "clock": {
+    "wall_clock": "not used for simulated fact lifecycle",
+    "per_session": "as_of date at 20:00 Asia/Seoul is execution clock only; not claimed utterance time",
+    "sources": "event_time from utterance, observed_date from session",
+    "requirement": "use both python_clock and ClockConnection; isolated schema defaults initialized by prepare_clock_defaults; do not use server wall clock",
+    "adapter": "eval/longmind_clock.py; single-threaded isolated worker, dedicated lmme_run_ schema, no public fallback",
+    "validation": "2026-10-24: 4 offline clock checks and 3 actual PostgreSQL isolated-schema checks passed, including virtual-date UPDATE and pack refresh; tests rolled back",
+    "semantic_limit": "mocked UPDATE tests validate infrastructure only; whether each writer identifies the date correction is measured by the paid comparison"
+  },
+  "storage_policy_overrides": {
+    "character_policy": "disabled in evaluation only",
+    "sensitive_access": "allowed for specified synthetic health story in evaluation only",
+    "past_history": "answer-time retrieval disabled; retain DB history but reader sees only pack plus unprocessed raw. Historical facts intentionally excluded by policy are separately diagnosed.",
+    "meal_retention": "unchanged production rules: cooking-owned recent_meal fallback 7 days; explicit valid_until honored in shared too; past event/task excluded from prompt; do not force all shared meals to expire",
+    "rules_appendix": "이 실험의 주체는 johangjoo 하나다. 사용자 원문에 근거한 기억만 추출한다. 캐릭터 접근 차이는 평가하지 않으며 scope=shared, owner_character_id=null로 통일한다. 복약 정보는 사용자가 이 실험에서 기억 평가를 요청한 사실이므로 평가 저장소에서만 접근을 허용한다. 사실의 중요도는 기존 1~5 규칙으로 모델이 부여하며 정답표를 보지 않는다. 일시적인 배고픔·졸림·인사는 제외하고 실제로 먹은 식사는 날짜가 있는 사건으로 남긴다. 원문의 session_id, turn_id, role, session_date를 보존해 각 추출 사실에 source_turn_ids를 반환한다. 가정·AI의 제안과 사용자 확정을 구분한다. 대화가 끝날 때까지의 발언만 사용하며 제공되지 않은 미래 사실을 추정하지 않는다. 여러 세션을 함께 처리할 때도 각 발언의 날짜를 기준으로 오늘·어제를 해석한다."
+  },
+  "cost": {
+    "main": "sum session-start prompt inputs + storage extraction/update inputs/outputs + embeddings + final flush",
+    "excluded": "direct dialogue input/output, speech/TTS, failure retries",
+    "evaluation_calls": "One writer: P1 137, P3 110, P5 100 reader calls; 347 reader and 347 judge calls, plus writer calls and embeddings. Evaluation overhead separate from operating cost.",
+    "realtime_start": "assembled token counts repriced, estimated unless actual Realtime usage collected",
+    "cache": "actual cached input subset, plus normalized zero-cache comparison; no assumption of universal hit",
+    "reasoning": "subset of output, not additional second charge",
+    "local": "API fee zero, GPU energy estimate and wall time separate; idle/hardware costs excluded from main metric",
+    "reader_retrieval": "zero: reader retrieval and its embeddings are disabled; writer reconciliation embeddings remain charged",
+    "report_totals": "operational subtotal, evaluation research overhead, and combined actual API USD; Realtime repricing remains estimated until actually called"
+  },
+  "output_limit_amendment": {
+    "gpt55": 10000,
+    "mini_P1_S01_S03": 10000,
+    "mini_P1_S04_retry_onward": 100000,
+    "mini_P3_P5": 100000,
+    "failed_mini_P1_S04_output": 10000,
+    "failed_mini_P1_S04_visible_output": 0,
+    "failed_usd": 0.04682235
+  },
+  "model_only_comparison": false,
+  "reviewer_model_identity": "not recorded reliably; do not attribute final adjudication to a named model",
+  "code_scope": "Archived evidence plus offline validation; no paid API/DB runner included"
+}

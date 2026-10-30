@@ -1,0 +1,37 @@
+[
+  {
+    "source_turn_id": "LMME-v1-S01-T011",
+    "forbidden_memory": "일시적 배고픔; 지속적 상태나 식사 아님",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  },
+  {
+    "source_turn_id": "LMME-v1-S03-T017",
+    "forbidden_memory": "일시적 졸림; 낮잠 습관 아님",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  },
+  {
+    "source_turn_id": "LMME-v1-S03-T009",
+    "forbidden_memory": "가정한 목소리 예시; 확정 선호 아님",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  },
+  {
+    "source_turn_id": "LMME-v1-S05-T017",
+    "forbidden_memory": "실제 시오라멘 식사와 현재 감탄 구분",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  },
+  {
+    "source_turn_id": "LMME-v1-S06-T017",
+    "forbidden_memory": "예시 시간; 실제 허용 시간 아님",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  },
+  {
+    "source_turn_id": "LMME-v1-S08-T017",
+    "forbidden_memory": "현재 감탄과 AI 추천; 실제 섭취 아님",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  },
+  {
+    "source_turn_id": "LMME-v1-S10-T013",
+    "forbidden_memory": "현재 감탄 및 조건문 예시; 오늘의 롯데리아 섭취 아님",
+    "evaluation": "추출된 facts/task에 해당 허위 사실이 확정 형태로 생겼는지 검사; 발화 자체의 보관은 허용"
+  }
+]
